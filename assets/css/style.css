@@ -36,7 +36,17 @@ header a {
 
 h1 {
     font-family: 'kalam', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
     
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    color: white;
+    list-style-type: none;
 }
 
 /* Main content */
