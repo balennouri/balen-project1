@@ -1,8 +1,11 @@
+/* Goole fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Lato:ital,wght@1,300&display=swap');
+
 /*Asterisk wildcard selector */
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
@@ -13,22 +16,24 @@ body {
     flex-direction: column;
     /* Overall project styling */
     color: black;
+    font-family: 'Lato', sans-serif ;
 }
 
 /*Header*/
 header {
-background-color: red;
+    background-color: red;
 
 }
+
 /* Main content */
 main {
-background-color: white;
-
-flex: 1 0 auto;
+    background-color: white;
+    /*Main content take up margin of the space */
+    flex: 1 0 auto;
 }
 
 
 /*Footer*/
 footer {
-background-color: red;
+    background-color: red;
 }
