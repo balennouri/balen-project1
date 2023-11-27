@@ -42,11 +42,19 @@ h1 {
     
 }
 
-#menu {
+#nav {
     font-size: 120%;
     letter-spacing: 3px;
     color: white;
     list-style-type: none;
+}
+
+#nav > li {
+    margin-bottom: 2px;
+}
+
+.push {
+    border-bottom: 2px solid white ;
 }
 
 /* Main content */
