@@ -21,12 +21,18 @@ body {
 
 /*Header*/
 header {
-    background-color: red;
+    background-color: #dadaad;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 
 }
 
 h1 {
     font-family: 'kalam', sans-serif;
+    
 }
 
 /* Main content */
@@ -39,5 +45,6 @@ main {
 
 /*Footer*/
 footer {
-    background-color: red;
+    background-color: #dadaad;
+    box-shadow: 0 -2px 2px #3a3a3a;
 }
