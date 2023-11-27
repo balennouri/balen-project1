@@ -1,5 +1,5 @@
 /* Goole fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Kalam:wght@700&family=Lato:ital,wght@1,300&display=swap');
 
 /*Asterisk wildcard selector */
 * {
@@ -16,13 +16,17 @@ body {
     flex-direction: column;
     /* Overall project styling */
     color: black;
-    font-family: 'Lato', sans-serif ;
+    font-family: 'Lato', sans-serif;
 }
 
 /*Header*/
 header {
     background-color: red;
 
+}
+
+h1 {
+    font-family: 'kalam', sans-serif;
 }
 
 /* Main content */
