@@ -34,8 +34,6 @@ header a {
     color: inherit;
 }
 
-
-
 h1 {
     font-family: 'kalam', sans-serif;
     text-transform: uppercase;
@@ -55,9 +53,22 @@ h1 {
     margin-bottom: 2px;
 }
 
-.push {
+.active {
     border-bottom: 2px solid white ;
+
 }
+
+/* Navigation section */
+
+li a {
+    
+}
+
+ul  {
+display: flex;
+justify-content: right;
+}
+
 
 /* Main content */
 main {
