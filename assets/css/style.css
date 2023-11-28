@@ -1,5 +1,5 @@
 /* Goole fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Kalam:wght@700&family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato:ital,wght@1,300&family=Oswald:wght@200;300;400;500&display=swap');
 
 /*Asterisk wildcard selector */
 * {
@@ -21,11 +21,15 @@ body {
 
 /*Header*/
 header {
-    background-color: #dadaad;
-    padding: 0 1rem;
+    background-color: white;
+    padding: 0px 1rem;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 10px black;
+
+
+
+
 
 }
 
@@ -35,52 +39,87 @@ header a {
 }
 
 h1 {
-    font-family: 'kalam', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: white;
-    
+    font-family: 'Caveat', sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
 }
 
-#nav {
-    font-size: 120%;
-    letter-spacing: 3px;
-    color: white;
-    list-style-type: none;
+
+
+/*Nav*/
+
+button {
+    padding: 3px;
+
 }
 
-#nav > li {
-    margin-bottom: 2px;
+nav {
+
+    background-color: white;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+
+}
+
+.push:hover {
+    background-color: darkgrey;
+
+
 }
 
 .active {
-    border-bottom: 2px solid white ;
-
+    background-color: darkgray;
 }
 
-/* Navigation section */
 
-li a {
-    
-}
-
-ul  {
-display: flex;
-justify-content: right;
-}
 
 
 /* Main content */
 main {
     background-color: white;
-    /*Main content take up margin of the space */
+    /* So Main content take up more space */
     flex: 1 0 auto;
 }
 
 
 /*Footer*/
 footer {
-    background-color: #dadaad;
-    box-shadow: 0 -2px 2px #3a3a3a;
-    
-} 
+    background-color: white;
+    box-shadow: 0 -2px 10px black;
+
+}
+
+/* Media query, larger  (768px and up) */
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: flex;
+        align-items: flex-end;
+        justify-content: right;
+    }
+
+    h1 {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+}
