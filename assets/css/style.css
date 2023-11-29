@@ -103,22 +103,34 @@ main {
     padding: 5px 5px;
 }
 
-#cover-text {
+#family {
     background-color: rgba(183, 173, 173, 0.7);
     width: 100%;
     height: 300%;
     margin-top: -2px;
 }
 
-#cover-text h2 {
+#family h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
     font-family: 'Caveat', sans-serif;
     letter-spacing: 1px;
-
 }
+
+#family h3 {
+    padding: 2px 2px;
+}
+
+#family p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2px 2px ;
+   
+}
+
 /*Footer*/
 footer {
     background-color: white;
