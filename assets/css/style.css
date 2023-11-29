@@ -75,9 +75,17 @@ h1 {
 
 /* Main content */
 main {
-    background-color: white;
+    
     /* So Main content take up more space */
     flex: 1 0 auto;
+}
+
+/*Hero section */
+
+#hero {
+    height: 50em;
+    width: 100%;
+    background:url("../images/bence-balla-schottner-deGn9vSwXIM-unsplash.jpg") no-repeat center center/cover ;
 }
 
 
