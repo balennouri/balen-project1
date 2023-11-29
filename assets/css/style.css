@@ -21,7 +21,7 @@ body {
 
 h1 {
     font-family: 'Caveat', sans-serif;
-    font-size: 300%;
+    font-size: 230%;
     letter-spacing: 2px;
     color: black;
     justify-content: center;
@@ -95,24 +95,21 @@ main {
     background-color: rgba(183, 173, 173, 0.7);
     width: 100%;
     height: 160px;
-    bottom: 65em;
-    position: absolute;
+    margin-top: 50px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+
 }
 
 
 
 #mypicture {
-
     height: 10em;
     width: 15em;
-    display:flex;
+    border-radius: 20px;
     padding: 5px 5px;
-   
-    
-
 }
-
-
 
 
 /*Footer*/
@@ -166,13 +163,14 @@ footer {
 
     }
 
+    /* About Me section */
+    #cover {
+        margin-top: 93px;
+    }
+
 
 
 }
-
-
-
-
 
 @media screen and (min-width: 992px) {
 
