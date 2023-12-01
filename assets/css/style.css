@@ -171,6 +171,7 @@ footer {
 #section-g {
 display: flex;
 justify-content: center;
+padding: 5px;
 }
 
 #gallery {
