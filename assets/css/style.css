@@ -71,8 +71,6 @@ header a {
 /*Nav*/
 
 #menu ul {
-
-    background-color: white;
     padding: 0 1rem;
     justify-content: center;
     align-items: center;
@@ -101,7 +99,6 @@ main {
 /*Hero section */
 
 #hero {
-    height: fit-content;
     width: 100%;
     background: url("../images/football.jpg") no-repeat center center/cover;
     position: relative;
@@ -172,9 +169,17 @@ footer {
 
 /* Contact page */
 
-#box-form {
+#contact-section
+{
     display: flex;
     justify-content: center;
+}
+
+#box-form {
+    margin-top: 5em;
+    padding: 10px 17px;
+    max-width: 35em;
+    width: 100%;
 }
 
 #contact-form {
@@ -182,18 +187,25 @@ footer {
         justify-content: center;
         align-items: center;
         background-color: rgb(255 255 255 / 70%);
-        width: fit-content;
-        height: fit-content;
-        padding: 10px 10px;
+        height: 27em;
         border-radius: 20px;
-      
-
+        margin-top: 30px;
 }
 #name-email {
     display: flex;
         flex-direction: column;
-            
+        max-width: 380px;
+        width: 75%;
+}
 
+#submit {
+width: 52px;
+    padding: 5px 5px;
+    margin: 7px;
+    border-radius: 5px;
+        background-color: black;
+        color: white;
+    
 }
 
 
@@ -202,8 +214,14 @@ footer {
 
 @media screen and (min-width:300px) {
     #cover {
-        margin-top: 14px;
+        margin-top: 3px;
     }
+
+    /* Contact page */
+
+        #contact-form {
+
+        }
 
 }
 
@@ -211,8 +229,17 @@ footer {
 
     /* Header */
 
+    header {
+        height: 85px;
+    }
+
+           #hero {
+               height: fit-content;
+           }
+
     nav {
-        position: relative;
+        display: flex;
+        justify-content: flex-end;
     }
 
     h1 {
@@ -230,7 +257,8 @@ footer {
     #menu ul {
         display: flex;
         justify-content: flex-end;
-        font-size: 150%;
+        font-size: 132%;
+        margin-top: -78px;
 
     }
 
@@ -244,10 +272,9 @@ footer {
         height: 244px;
         margin-top: 2em;
     }
+#contact-form {
 
-    #hero {
-        height: fit-content;
-    }
+}
 
 }
 
