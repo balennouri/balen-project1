@@ -176,7 +176,6 @@ footer {
 }
 
 #box-form {
-    margin-top: 5em;
     padding: 10px 17px;
     max-width: 35em;
     width: 100%;
@@ -204,10 +203,35 @@ width: 52px;
     margin: 7px;
     border-radius: 5px;
         background-color: black;
-        color: white;
-    
+        color: white;    
 }
 
+label {
+    padding: 4px;
+}
+
+/* Submisson form */
+
+#thank-you-box {
+    display: flex;
+    justify-content: center;
+}
+
+#thank-you {
+  background-color: rgb(255 255 255 / 70%);
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+  width: 50%;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 2em;
+  
+}
+
+        #thank-you h2 {
+            letter-spacing: 1px;
+        }
 
 
 /* Media query, larger  (300px and up) */
