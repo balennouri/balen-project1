@@ -170,6 +170,34 @@ footer {
     color: rgba(28, 27, 27, 0.725);
 }
 
+/* Contact page */
+
+#box-form {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-form {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255 255 255 / 70%);
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 10px;
+        border-radius: 20px;
+      
+
+}
+#name-email {
+    display: flex;
+        flex-direction: column;
+            
+
+}
+
+
+
 /* Media query, larger  (300px and up) */
 
 @media screen and (min-width:300px) {
