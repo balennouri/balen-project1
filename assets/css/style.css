@@ -78,7 +78,6 @@ header a {
     width: 100%;
     list-style-type: none;
     gap: 10px;
-
 }
 
 
@@ -89,11 +88,9 @@ header a {
 
 /* Main content */
 main {
-
     /* So Main content take up more space */
     flex: 1 0 auto;
     margin-top: 99px;
-
 }
 
 /*Hero section */
@@ -112,6 +109,8 @@ main {
     border-radius: 20px;
     margin: 3px;
     padding: 10px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #picture-bg {
@@ -122,30 +121,26 @@ main {
 
 #mypicture {
     width: 280px;
-    height: 100%;
+    height: 246px;
     border-radius: 20px;
     padding: 5px 5px;
+    margin-top: 10px;
 }
 
 #family {
-
     width: 100%;
     height: 300%;
 }
 
 #football {
-
     width: 100%;
     height: 300%;
-
-
 }
 
 #my-self {
 
     width: 100%;
     height: 300%;
-
 }
 
 /*Footer*/
@@ -153,7 +148,6 @@ footer {
     background-color: white;
     box-shadow: 0 -2px 10px black;
     padding: 5px;
-
 }
 
 #social-media {
@@ -168,31 +162,62 @@ footer {
 }
 
 /* Gallery page */
-#section-g {
-display: flex;
-justify-content: center;
-padding: 5px;
+.center-g {
+    display: flex;
+    justify-content: center;
 }
 
-#gallery {
+.center-g h2 {
+    position: absolute;
+    margin-top: 15px;
+}
+
+#section-g {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(255 255 255 / 70%);
     width: fit-content;
     height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    padding-bottom: 5px;
 }
+
+.youtube {
+    width: 100%;
+    height: 100%;
+}
+
 #video {
-    width: 90%;
-    height: 90%;
+    width: 277px;
+    height: 185px;
+    border: 4px solid white;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+img {
+    width: 277px;
+    height: 185px;
+    margin-bottom: 10px;
     border: 4px solid white;
 }
 
+.kick-ball {
+    width: 277px;
+    height: 277px;
+}
+
+.a-man {
+    width: 277px;
+    height: 278px;
+}
+
+
 /* Contact page */
 
-#contact-section
-{
+#contact-section {
     display: flex;
     justify-content: center;
 }
@@ -205,27 +230,28 @@ padding: 5px;
 
 #contact-form {
     display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(255 255 255 / 70%);
-        height: 27em;
-        border-radius: 20px;
-        margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255 255 255 / 70%);
+    height: 27em;
+    border-radius: 20px;
+    margin-top: 30px;
 }
+
 #name-email {
     display: flex;
-        flex-direction: column;
-        max-width: 380px;
-        width: 75%;
+    flex-direction: column;
+    max-width: 380px;
+    width: 75%;
 }
 
 #submit {
-width: 52px;
+    width: 52px;
     padding: 5px 5px;
     margin: 7px;
-    border-radius: 5px;
-        background-color: black;
-        color: white;    
+    border-radius: 15px;
+    background-color: black;
+    color: white;
 }
 
 label {
@@ -240,32 +266,49 @@ label {
 }
 
 #thank-you {
-  background-color: rgb(255 255 255 / 70%);
-  display: flex;
-  justify-content: center;
-  height: 25vh;
-  width: 50%;
-  border-radius: 20px;
-  padding: 5px;
-  margin-top: 2em;
+    background-color: rgb(255 255 255 / 70%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 6em;
+    max-width: 300px;
 }
 
-        #thank-you h2 {
-            letter-spacing: 1px;
-        }
+#thank-you h2 {
+    letter-spacing: 1px;
+}
 
-
-/* Media query, larger  (300px and up) */
-
-@media screen and (min-width:300px) {
-    #cover {
-        margin-top: 3px;
+/* Media query for small screens and up */
+@media screen and (min-width: 630px) {
+    #video {
+        width: 500px;
+        height: 500px;
     }
 
-    /* Contact page */
+    #fans {
+        width: 500px;
+        height: 333px;
+    }
 
+    .run {
+        width: 500px;
+        height: 333px;
+    }
 
+    .kick-ball {
+        width: 500px;
+        height: 500px;
+    }
 
+    .a-man {
+        width: 500px;
+        height: 501px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -276,9 +319,9 @@ label {
         height: 85px;
     }
 
-           #hero {
-               height: fit-content;
-           }
+    #hero {
+        height: fit-content;
+    }
 
     nav {
         display: flex;
@@ -302,34 +345,20 @@ label {
         justify-content: flex-end;
         font-size: 132%;
         margin-top: -78px;
-
     }
 
     /* About Me section */
-    #cover {
-        margin-top: 39px;
-    }
 
     #mypicture {
         width: 400px;
-        height: 244px;
-        margin-top: 2em;
+        height: 352px;
     }
-#contact-form {
-
-}
-
 }
 
 @media screen and (min-width: 992px) {
 
     #menu a:hover {
         border-bottom: 2px solid black;
-    }
-
-    #cover {
-        width: 80%;
-        margin: 1px 0px 0px 118px;
     }
 
     #picture-bg {
@@ -339,16 +368,6 @@ label {
 
     #mypicture {
         width: 440px;
-
+        height: 387px;
     }
-
-}
-
-@media screen and (min-width: 1200px ) {
-
-    #cover {
-        width: 86%;
-        margin: 1px 0px 0px 84px;
-    }
-
 }
