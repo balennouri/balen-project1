@@ -1,6 +1,6 @@
 # Balen Taha Nouri
 
-The Balen Taha Nouri is a website for everyone, and mainly for all football lovers. This website will be perfect for all my old clubs, fans and old teammates and, of course, for all the new clubs to get to know me as a person. On this page you will find some information about myself, my family and some of the experiences I have got from football. You will find some videos and nice photos of some of my games on this website. And if someone wants to contact me, there is a contact page where you can contact me and I will get back to you.
+The Balen Taha Nouri is a website for everyone, and mainly for all football lovers. This website will be perfect for all my old clubs, fans and old teammates, of course, for all the new clubs to get to know me as a person. On this page you will find some information about myself, my family and some of the experiences I have got from football. You will find some videos and nice photos of some of my games on this website. And if someone wants to contact me, there is a contact page where you can contact me and I will get back to you.
 
 A live version of the website and the project can be accessed here: [Balen Taha Nouri](https://balennouri.github.io/balen-project1/)
 
@@ -25,8 +25,8 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 <img src="assets/images/readme-image/socialmedia.png">
 
 * Down at the bottom of all the pages you have a footer with a white background color and
-Three social media logos: Facebook, YouTube and GitHub that are in black color.
-* If you click on one of social media logos they will navigate to one of my social media accounts depending on which one you click on. This will open in a new tab.
+Three social media logos: Facebook, Github and Youtube that are in black color.
+* If you click on one of the social media logos they will navigate to one of my social media accounts depending on which one you click on. This will open in a new tab.
 
 ## About Me (Home Page)
 
@@ -45,7 +45,7 @@ Three social media logos: Facebook, YouTube and GitHub that are in black color.
 
 <img src="assets/images/readme-image/gall.png">
 
-* In the gallery section you can find a video of my football highlights, then you can see some nice pictures of some old games.
+* In the gallery section you can find a video of my football highlights, then you can see some nice pictures of me in some old games i have played.
 * The video and the pictures all have a white border around them, so it looks good.
 * All the pictures and the video are in a light white box with rounded corners like the about me page, so it is matching with the first page.
 
@@ -63,12 +63,12 @@ Three social media logos: Facebook, YouTube and GitHub that are in black color.
 
 * The submission page is a page that comes if the users write a message to me and send it.
 * It is an important page where the user can see that the message has delivered to me and that I will give them an answer in 48 hours.
-* When you get the confirmation, when you have sent me a message, it's also in a light white box like the rest of the website.
+* When you get the confirmation, after you send me a message, it will also appear in a light white box like the rest of the website.
 
 # Testing
 
 * I have tested that this page works in different browsers: Chrome, Firefox and Safari.
-* I have tested, so the website is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+* I have tested, so the website is responsive, looks good and functions on all standard screen sizes, like a tablet or a phone. I used the devtools device toolbar to see that everything was working.
 * I confirmed that the header, navigation, about me, gallery and contact text are easy to read and understand.
 * I have tested that the navigation bar works, the contact form where you need to write and email will only accept an email and that the submit button works.
 
