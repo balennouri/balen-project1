@@ -1,6 +1,6 @@
 # Balen Taha Nouri
 
-The Balen Taha Nouri is a website for everyone, and mainly for all football lovers. This website will be perfect for all my old clubs, fans and old teammates, of course, for all the new clubs to get to know me as a person. On this page you will find some information about myself, my family and some of the experiences I have got from football. You will find some videos and nice photos of some of my games on this website. And if someone wants to contact me, there is a contact page where you can contact me and I will get back to you.
+The Balen Taha Nouri is a website for everyone, and mainly for all football lovers. This website will be perfect for all my old clubs, fans and old teammates. Of course, for all the new clubs to get to know me as a person as well. On this page you will find some information about myself, my family and some of the experiences I have got from football. You will find some videos and nice photos of some of my football games. And if someone wants to contact me, there is a contact page where you can contact me and I will get back to you.
 
 A live version of the website and the project can be accessed here: [Balen Taha Nouri](https://balennouri.github.io/balen-project1/)
 
@@ -67,13 +67,13 @@ As a user of this website:
 ### Desktop
 
 <img src="assets/images/readme-image/wireframed.png">
-<img src="assets/images/readme-image/wgallery.png">
-<img src="assets/images/readme-image/wcontact.png">
+<img src="assets/images/readme-image/gallerywf.png">
+<img src="assets/images/readme-image/contactwf.png">
 
 ### Mobile 
 
 <img src="assets/images/readme-image/wireframeip.png">
-<img src="assets/images/readme-image/wiphoneg.png"> 
+<img src="assets/images/readme-image/mygallerywf.png"> 
 <img src="assets/images/readme-image/wiphone.png">
 
 ## Design
@@ -250,6 +250,7 @@ The live link can be found here: [Balen Taha Nouri](https://balennouri.github.io
 * The fonts for the website did I find on [Google Fonts](https://fonts.google.com/)
 * The icons used on the about me page, contact page and the social media were taken from [Font Awesome](https://fontawesome.com)
 * The screenshot at the top of the ReadMe was built from [Ami Responsive.](https://ui.dev/amiresponsive)
+* The wireframes for the ReadMe were made by [Balsamiq](https://balsamiq.com/)
   
 ## Images And Video
 
