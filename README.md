@@ -13,9 +13,12 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 - [User Experience Design](#user-experience-design)
   - [User Demographic](#user-demographic)
   - [User Stories](#user-stories)
-- [Design](#design)
-  - [Colours](#colours)
-  - [Typography](#typography)
+  - [Wireframes](#wireframes)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
+  - [Design](#design)
+    - [Colours](#colours)
+    - [Typography](#typography)
 - [Features](#features)
   - [Existing Features](#existing-features)
     - [Header And Navigation Bar](#header-and-navigation-bar)
@@ -60,15 +63,31 @@ As a user of this website:
 * I want to see what he has achieved with football.
 * I want to get in touch with Balen Taha Nouri and have a chat.
 
-# Design
+## Wireframes
+
+### Desktop
+
+<img src="assets/images/readme-image/wireframed.png">
+<img src="assets/images/readme-image/wgallery.png">
+<img src="assets/images/readme-image/wcontact.png">
+
+### Mobile 
+
+<img src="assets/images/readme-image/wireframeip.png">
+<img src="assets/images/readme-image/wiphoneg.png"> 
+<img src="assets/images/readme-image/wiphone.png">
+
+## Design
 
 The goal when the website was designed was that it would be easy to use and that it have a clean layout.
 
-## Colours
+### Colours
 
 The colors used for the website were mainly chosen from the background image that is on all the pages. The background image is a picture of a football pitch from above. The colors are white, black and light white that was used.
 
-## Typography
+<img src="assets/images/readme-image/pallete.png">
+
+### Typography
 
 Google fonts were used to get the right fonts and all the fonts were imported from there. The font of headings on the page has an unik style and was chosen because of the style. It's a fast font and in football speed is an important thing. The font is called Caveat. For the rest of the content on the page, the Lato font was used. In case If the user's browser doesn't read the fonts that are chosen, I put in a second font called Sans-serif for both of them.
 
