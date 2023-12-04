@@ -7,7 +7,6 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 <img src="assets/images/readme-image/imresponsive.png">
 
 # Table Of Contents
-
 - [Balen Taha Nouri](#balen-taha-nouri)
 - [Table Of Contents](#table-of-contents)
 - [User Experience Design](#user-experience-design)
