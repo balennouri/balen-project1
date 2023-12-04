@@ -6,9 +6,83 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 
 <img src="assets/images/readme-image/imresponsive.png">
 
+# Table Of Contents
+
+- [Balen Taha Nouri](#balen-taha-nouri)
+- [Table Of Contents](#table-of-contents)
+- [User Experience Design](#user-experience-design)
+  - [User Demographic](#user-demographic)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colours](#colours)
+  - [Typography](#typography)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Header And Navigation Bar](#header-and-navigation-bar)
+    - [Social Media Section](#social-media-section)
+    - [About Me (Home Page)](#about-me-home-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Page](#contact-page)
+    - [Form Submission Page](#form-submission-page)
+- [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [Lighthouse Testing](#lighthouse-testing)
+      - [About Me (Home Page)](#about-me-home-page-1)
+      - [Gallery Page](#gallery-page-1)
+      - [Contact Page](#contact-page-1)
+  - [Known Bugs](#known-bugs)
+    - [Solved Bugs](#solved-bugs)
+- [Deployment](#deployment)
+- [Credit](#credit)
+  - [Content And Code](#content-and-code)
+  - [Images And Video](#images-and-video)
+- [Acknowledgements](#acknowledgements)
+
+# User Experience Design
+
+## User Demographic
+
+This website is ment for:
+
+* Football lovers and people who are interested in training.
+* Balen Taha Nouri old clubs and fans and for the new ones aswell.
+* For people who know Balen Taha Nouri to get the chance to see how he has managed football life.
+
+## User Stories
+
+As a user of this website:
+
+* I want to read about Balen Taha Nouri.
+* I want to see what he has achieved with football.
+* I want to get in touch with Balen Taha Nouri and have a chat.
+
+# Design
+
+The goal when the website was designed was that it would be easy to use and that it have a clean layout.
+
+## Colours
+
+The colors used for the website were mainly chosen from the background image that is on all the pages. The background image is a picture of a football pitch from above. The colors are white, black and light white that was used.
+
+## Typography
+
+Google fonts were used to get the right fonts and all the fonts were imported from there. The font of headings on the page has an unik style and was chosen because of the style. It's a fast font and in football speed is an important thing. The font is called Caveat. For the rest of the content on the page, the Lato font was used. In case If the user's browser doesn't read the fonts that are chosen, I put in a second font called Sans-serif for both of them.
+
 # Features
 
-## The Header And Navigation Bar
+The Balen Taha Nouri website has three pages. All of the pages can be navigated from the navigation bar. The header is fixed, so you can always see the header and the navigation bar when you scroll around the page.
+
+* About me (Home page)
+* Gallery
+* Contact
+
+## Existing Features
+
+### Header And Navigation Bar
 
 <img src="assets/images/readme-image/header.png">
 
@@ -20,7 +94,7 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 * The header is looking the same across all three pages which enhances usability and consistency.
 * The navigation links allow the users move around in the website in an easy and an effective way.
 
-## Social Media Section
+### Social Media Section
 
 <img src="assets/images/readme-image/socialmedia.png">
 
@@ -28,7 +102,7 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 Three social media logos: Facebook, Github and Youtube that are in black color.
 * If you click on one of the social media logos they will navigate to one of my social media accounts depending on which one you click on. This will open in a new tab.
 
-## About Me (Home Page)
+### About Me (Home Page)
 
 <img src="assets/images/readme-image/myself.png" >
 
@@ -41,7 +115,7 @@ Three social media logos: Facebook, Github and Youtube that are in black color.
 * The about me section is written in black text with a font of Lato.
 * And the text is inside a light white box that has rounded corners, so the readers can easily read the information.
 
-## Gallery Page
+### Gallery Page
 
 <img src="assets/images/readme-image/gall.png">
 
@@ -49,7 +123,7 @@ Three social media logos: Facebook, Github and Youtube that are in black color.
 * The video and the pictures all have a white border around them, so it looks good.
 * All the pictures and the video are in a light white box with rounded corners like the about me page, so it is matching with the first page.
 
-## Contact Page
+### Contact Page
 
 <img src="assets/images/readme-image/contacts.png">
 
@@ -57,13 +131,28 @@ Three social media logos: Facebook, Github and Youtube that are in black color.
 * The contact page is valuable for users if they want to ask something or just to get in touch with me.
 * ​Like all the other pages, the contact page is also in a light white box, so it matches with the rest of the website.
 
-## Form Submission Page
+### Form Submission Page
 
 <img src="assets/images/readme-image/getback.png">
 
 * The submission page is a page that comes if the users write a message to me and send it.
 * It is an important page where the user can see that the message has delivered to me and that I will give them an answer in 48 hours.
 * When you get the confirmation, after you send me a message, it will also appear in a light white box like the rest of the website.
+
+# Future Features
+
+Future Updates
+
+* More information about myself and training on the About Me page.
+* More videos and pictures to the gallery.
+* A new page where you can get some training videos and how you can train also.
+
+# Technologies Used
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [Codeanywhere](https://app.codeanywhere.com/)
+* [Github](https://github.com/)
 
 # Testing
 
@@ -140,6 +229,7 @@ The live link can be found here: [Balen Taha Nouri](https://balennouri.github.io
 * I find a lot of solutions on [YouTube](https://www.youtube.com/) and that was really good and educational.
 * The fonts for the website did I find on [Google Fonts](https://fonts.google.com/)
 * The icons used on the about me page, contact page and the social media were taken from [Font Awesome](https://fontawesome.com)
+* The screenshot at the top of the ReadMe was built from [Ami Responsive.](https://ui.dev/amiresponsive)
   
 ## Images And Video
 
