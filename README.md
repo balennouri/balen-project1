@@ -4,7 +4,7 @@ The Balen Taha Nouri is a website for everyone, and mainly for all football love
 
 A live version of the website and the project can be accessed here: [Balen Taha Nouri](https://balennouri.github.io/balen-project1/)
 
-<img src="docs/readme-image/imresponsive.png">
+![imresponsive](docs/readme-image/imresponsive.png)
 
 ## Table Of Contents
 
@@ -24,8 +24,8 @@ A live version of the website and the project can be accessed here: [Balen Taha 
     - [Header And Navigation Bar](#header-and-navigation-bar)
     - [Social Media Section](#social-media-section)
     - [About Me (Home Page)](#about-me-home-page)
-    - [Gallery Page](#gallery-page)
-    - [Contact Page](#contact-page)
+    - [Gallery](#gallery)
+    - [Contact](#contact)
     - [Form Submission Page](#form-submission-page)
   - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
@@ -34,9 +34,9 @@ A live version of the website and the project can be accessed here: [Balen Taha 
       - [HTML](#html)
       - [CSS](#css)
     - [Lighthouse Testing](#lighthouse-testing)
-      - [About Me (Home Page)](#about-me-home-page-1)
-      - [Gallery Page](#gallery-page-1)
-      - [Contact Page](#contact-page-1)
+      - [About Me](#about-me)
+      - [Gallery Page](#gallery-page)
+      - [Contact Page](#contact-page)
     - [Known Bugs](#known-bugs)
       - [Solved Bugs](#solved-bugs)
       - [Unfixed Bugs](#unfixed-bugs)
@@ -68,15 +68,15 @@ As a user of this website:
 
 ### Desktop
 
-<img src="docs/readme-image/wireframe/wireframed.png">
-<img src="docs/readme-image/wireframe/gallerywf.png">
-<img src="docs/readme-image/wireframe/contactwf.png">
+![firstpage](docs/readme-image/wireframe/wireframed.png)
+![gallery](docs/readme-image/wireframe/gallerywf.png)
+![wfcontact](docs/readme-image/wireframe/contactwf.png)
 
 ### Mobile
 
-<img src="docs/readme-image/wireframe/wireframeip.png">
-<img src="docs/readme-image/wireframe/mygallerywf.png"> 
-<img src="docs/readme-image/wireframe/wiphone.png">
+![aboutme-iphone](docs/readme-image/wireframe/wireframeip.png)
+![giphone](docs/readme-image/wireframe/mygallerywf.png)
+![cipone](docs/readme-image/wireframe/wiphone.png)
 
 ## Design
 
@@ -86,7 +86,7 @@ The goal when the website was designed was that it would be easy to use and that
 
 The colors used for the website were mainly chosen from the background image that is on all the pages. The background image is a picture of a football pitch from above. The colors are white, black and light white that was used.
 
-<img src="docs/readme-image/pallete.png">
+![colour-pallete](docs/readme-image/pallete.png)
 
 ### Typography
 
@@ -104,7 +104,7 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 
 ### Header And Navigation Bar
 
-<img src="docs/readme-image/header.png">
+![header](docs/readme-image/header.png)
 
 - Featured at the top of the page in the left corner, you will see the page name Balen Taha Nour and that will take you to the About me (Home page) if you click on it.
 - In the top right corner there are three other navigation links. About me (Home page), Gallery and Contact.
@@ -116,7 +116,7 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 
 ### Social Media Section
 
-<img src="docs/readme-image/socialmedia.png">
+![socialmedia](docs/readme-image/socialmedia.png)
 
 - Down at the bottom of all the pages you have a footer with a white background color and
   Three social media logos: Facebook, Github and Youtube that are in black color.
@@ -124,28 +124,28 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 
 ### About Me (Home Page)
 
-<img src="docs/readme-image/myself.png" >
+![mypicture](docs/readme-image/myself.png)
 
 - The first thing you see on the about me page is a picture of myself after a game when I talk with the reporters.
 
-<img src="docs/readme-image/about.png">
+![aboutme](docs/readme-image/about.png)
 
 - In the about me section, you can read interesting things from my football experience, about myself, my family and how I have kept my focus on the right things
 - To keep the text interesting, it's split into two parts. The first part is about myself and my family and the second part is about football and training.
 - The about me section is written in black text with a font of Lato.
 - And the text is inside a light white box that has rounded corners, so the readers can easily read the information.
 
-### Gallery Page
+### Gallery
 
-<img src="docs/readme-image/gall.png">
+![gallery](docs/readme-image/gall.png)
 
 - In the gallery section you can find a video of my football highlights, then you can see some nice pictures of me in some old games i have played.
 - The video and the pictures all have a white border around them, so it looks good.
 - All the pictures and the video are in a light white box with rounded corners like the about me page, so it is matching with the first page.
 
-### Contact Page
+### Contact
 
-<img src="docs/readme-image/contacts.png">
+![contact](docs/readme-image/contacts.png)
 
 - On the contact page, the users will be able to write to me. By writing down their full name, email and with a message.
 - The contact page is valuable for users if they want to ask something or just to get in touch with me.
@@ -153,7 +153,7 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 
 ### Form Submission Page
 
-<img src="docs/readme-image/getback.png">
+![formsub](docs/readme-image/getback.png)
 
 - The submission page is a page that comes if the users write a message to me and send it.
 - It is an important page where the user can see that the message has delivered to me and that I will give them an answer in 48 hours.
@@ -187,27 +187,29 @@ For this project I needed to have three pages with a working navigation bar, and
 
 There was no error found when the website was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbalennouri.github.io%2Fbalen-project1%2F)
 
-<img src="docs/readme-image/testhtml.png">
+![htmltest](docs/readme-image/testhtml.png)
 
 #### CSS
 
-<img src="docs/readme-image/testcss.png">
+![csstest](docs/readme-image/testcss.png)
 
 There was no error found when the website was passed through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbalennouri.github.io%2Fbalen-project1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### Lighthouse Testing
 
-#### About Me (Home Page)
+To get a good lighthouse result, I tried to use two different formats. At first, I tried JPG, then I changed to WebP. After I tested both of them, I saw that JPG gave the best result, so I changed back to that.
 
-<img src="docs/readme-image/lighthouse1.png">
+#### About Me
+
+![testlight](docs/readme-image/lighthouse1.png)
 
 #### Gallery Page
 
-<img src="docs/readme-image/lighthouse2.png">
+![testlight1](docs/readme-image/lighthouse2.png)
 
 #### Contact Page
 
-<img src="docs/readme-image/lighthouse.png">
+[lighttest](docs/readme-image/lighthouse.png)
 
 ### Known Bugs
 
@@ -217,11 +219,11 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 
 1. When I first deployed my website to the Github pages, I saw that the images didn't work and that the link was broken to the CSS file. The problem was that I used an absolute file path like you see here:
 
-   <img src="docs/readme-image/links.png">
+   ![links](docs/readme-image/links.png)
 
    - The solution was to remove the "/" in front of the "assets" like you see here:
 
-   <img src="docs/readme-image/link.png">
+   ![links2](docs/readme-image/link.png)
 
 2. I had some other issues like navigating from the different pages on the website to the navigation bar.
 
