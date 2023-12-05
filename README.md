@@ -69,13 +69,17 @@ As a user of this website:
 ### Desktop
 
 ![firstpage](docs/readme-image/wireframe/wireframed.png)
+
 ![gallery](docs/readme-image/wireframe/gallerywf.png)
+
 ![wfcontact](docs/readme-image/wireframe/contactwf.png)
 
 ### Mobile
 
 ![aboutme-iphone](docs/readme-image/wireframe/wireframeip.png)
+
 ![giphone](docs/readme-image/wireframe/mygallerywf.png)
+
 ![cipone](docs/readme-image/wireframe/wiphone.png)
 
 ## Design
