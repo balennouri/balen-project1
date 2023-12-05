@@ -34,9 +34,9 @@ A live version of the website and the project can be accessed here: [Balen Taha 
     - [HTML](#html)
     - [CSS](#css)
   - [Lighthouse Testing](#lighthouse-testing)
-    - [About Me (Home Page)](#about-me-home-page-1)
-    - [Gallery Page](#gallery-page-1)
-    - [Contact Page](#contact-page-1)
+      - [About Me (Home Page)](#about-me-home-page-1)
+      - [Gallery Page](#gallery-page-1)
+      - [Contact Page](#contact-page-1)
   - [Known Bugs](#known-bugs)
     - [Solved Bugs](#solved-bugs)
 - [Deployment](#deployment)
@@ -216,19 +216,19 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 
 1. When I first deployed my website to the Github pages, I saw that the images didn't work and that the link was broken to the CSS file. The problem was that I used an absolute file path like you see here:
 
-<img src="assets/images/readme-image/links.png">
+   <img src="assets/images/readme-image/links.png">
 
-- The solution was to remove the "/" in front of the "assets" like you see here:
+   - The solution was to remove the "/" in front of the "assets" like you see here:
 
-<img src="assets/images/readme-image/link.png">
+   <img src="assets/images/readme-image/link.png">
 
 2. I had some other issues like navigating from the different pages on the website to the navigation bar.
 
-- The solution was, I went through the files and change the file paths and that solved the problem.
+   - The solution was, I went through the files and change the file paths and that solved the problem.
 
 3. On the W3C validator I got one error on the gallery page where I used frame border for the YouTube video inside the HTML file.
 
-- The solution was to remove it from the HTML file and put it in the CSS file.
+   - The solution was to remove it from the HTML file and put it in the CSS file.
 
 # Deployment
 
