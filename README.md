@@ -6,49 +6,49 @@ A live version of the website and the project can be accessed here: [Balen Taha 
 
 <img src="assets/images/readme-image/imresponsive.png">
 
-# Table Of Contents
+## Table Of Contents
 
 - [Balen Taha Nouri](#balen-taha-nouri)
-- [Table Of Contents](#table-of-contents)
-- [User Experience Design](#user-experience-design)
-  - [User Demographic](#user-demographic)
-  - [User Stories](#user-stories)
+  - [Table Of Contents](#table-of-contents)
+  - [User Experience Design](#user-experience-design)
+    - [User Demographic](#user-demographic)
+    - [User Stories](#user-stories)
   - [Wireframes](#wireframes)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
   - [Design](#design)
     - [Colours](#colours)
     - [Typography](#typography)
-- [Features](#features)
-  - [Existing Features](#existing-features)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
     - [Header And Navigation Bar](#header-and-navigation-bar)
     - [Social Media Section](#social-media-section)
     - [About Me (Home Page)](#about-me-home-page)
     - [Gallery Page](#gallery-page)
     - [Contact Page](#contact-page)
     - [Form Submission Page](#form-submission-page)
-- [Future Features](#future-features)
-- [Technologies Used](#technologies-used)
-- [Testing](#testing)
-  - [Validator Testing](#validator-testing)
-    - [HTML](#html)
-    - [CSS](#css)
-  - [Lighthouse Testing](#lighthouse-testing)
+  - [Future Features](#future-features)
+  - [Technologies Used](#technologies-used)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+      - [HTML](#html)
+      - [CSS](#css)
+    - [Lighthouse Testing](#lighthouse-testing)
       - [About Me (Home Page)](#about-me-home-page-1)
       - [Gallery Page](#gallery-page-1)
       - [Contact Page](#contact-page-1)
-  - [Known Bugs](#known-bugs)
-    - [Solved Bugs](#solved-bugs)
-    - [Unfixed Bugs](#unfixed-bugs)
-- [Deployment](#deployment)
-- [Credit](#credit)
-  - [Content And Code](#content-and-code)
+    - [Known Bugs](#known-bugs)
+      - [Solved Bugs](#solved-bugs)
+      - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+  - [Credit](#credit)
+    - [Content And Code](#content-and-code)
   - [Images And Video](#images-and-video)
-- [Acknowledgements](#acknowledgements)
+  - [Acknowledgements](#acknowledgements)
 
-# User Experience Design
+## User Experience Design
 
-## User Demographic
+### User Demographic
 
 This website is ment for:
 
@@ -56,7 +56,7 @@ This website is ment for:
 - Balen Taha Nouri old clubs and fans and for the new ones aswell.
 - For people who know Balen Taha Nouri to get the chance to see how he has managed football life.
 
-## User Stories
+### User Stories
 
 As a user of this website:
 
@@ -92,7 +92,7 @@ The colors used for the website were mainly chosen from the background image tha
 
 Google fonts were used to get the right fonts and all the fonts were imported from there. The font of headings on the page has an unik style and was chosen because of the style. It's a fast font and in football speed is an important thing. The font is called Caveat. For the rest of the content on the page, the Lato font was used. In case If the user's browser doesn't read the fonts that are chosen, I put in a second font called Sans-serif for both of them.
 
-# Features
+## Features
 
 The Balen Taha Nouri website has three pages. All of the pages can be navigated from the navigation bar. The header is fixed, so you can always see the header and the navigation bar when you scroll around the page.
 
@@ -100,7 +100,7 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 - Gallery
 - Contact
 
-## Existing Features
+### Existing Features
 
 ### Header And Navigation Bar
 
@@ -159,43 +159,43 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 - It is an important page where the user can see that the message has delivered to me and that I will give them an answer in 48 hours.
 - When you get the confirmation, after you send me a message, it will also appear in a light white box like the rest of the website.
 
-# Future Features
+## Future Features
 
-Future Updates
+For this project I needed to have three pages with a working navigation bar, and some more features. For the future I plan to add this stuff down below.
 
 - More information about myself and training on the About Me page.
 - More videos and pictures to the gallery.
 - A new page where you can get some training videos and how you can train also.
 
-# Technologies Used
+## Technologies Used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [Codeanywhere](https://app.codeanywhere.com/)
 - [Github](https://github.com/)
 
-# Testing
+## Testing
 
 - I have tested that this page works in different browsers: Chrome, Firefox and Safari.
 - I have tested, so the website is responsive, looks good and functions on all standard screen sizes, like a tablet or a phone. I used the devtools device toolbar to see that everything was working.
 - I confirmed that the header, navigation, about me, gallery and contact text are easy to read and understand.
 - I have tested that the navigation bar works, the contact form where you need to write and email will only accept an email and that the submit button works.
 
-## Validator Testing
+### Validator Testing
 
-### HTML
+#### HTML
 
 There was no error found when the website was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbalennouri.github.io%2Fbalen-project1%2F)
 
 <img src="assets/images/readme-image/testhtml.png">
 
-### CSS
+#### CSS
 
 <img src="assets/images/readme-image/testcss.png">
 
 There was no error found when the website was passed through the official [W3C Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbalennouri.github.io%2Fbalen-project1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-## Lighthouse Testing
+### Lighthouse Testing
 
 #### About Me (Home Page)
 
@@ -209,9 +209,9 @@ There was no error found when the website was passed through the official [W3C V
 
 <img src="assets/images/readme-image/lighthouse.png">
 
-## Known Bugs
+### Known Bugs
 
-### Solved Bugs
+#### Solved Bugs
 
 All known bugs have been fixed, below is a list of bugs encountered and how they have been fixed.
 
@@ -231,11 +231,11 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 
    - The solution was to remove it from the HTML file and put it in the CSS file.
 
-### Unfixed Bugs
+#### Unfixed Bugs
 
 No unfixed bugs.
 
-# Deployment
+## Deployment
 
 The website was deployed to GitHub pages. Here is how you deploy on GitHub:
 
@@ -246,9 +246,9 @@ The website was deployed to GitHub pages. Here is how you deploy on GitHub:
 
 The live link can be found here: [Balen Taha Nouri](https://balennouri.github.io/balen-project1/index.html)
 
-# Credit
+## Credit
 
-## Content And Code
+### Content And Code
 
 - Some of the codes to create the header and the social media links were taken from the CI Love Running project.
 - [W3School](https://www.w3schools.com/) was very helpful and helped me with a lot of the codes when I got stuck.
@@ -265,7 +265,7 @@ The live link can be found here: [Balen Taha Nouri](https://balennouri.github.io
 - My highlight video on the gallery page can you find on [YouTube](https://www.youtube.com/watch?v=w843ufMUyaY&ab_channel=%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%9D%D0%B5%D0%BD%D0%BE%D0%B2) and was made by a friend of mine. You can check his channel on the link.
 - The other images that were used on the gallery page are taken from private photographers that works for the football clubs I played for.
 
-# Acknowledgements
+## Acknowledgements
 
 I would like to thank my mentor David Bowers, the slack community and the Code Institute team.
 
