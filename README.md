@@ -197,7 +197,7 @@ There was no error found when the website was passed through the official [W3C V
 
 ### Lighthouse Testing
 
-To get a good lighthouse result, I tried to use two different formats. At first, I tried JPG, then I changed to WebP. After I tested both of them, I saw that JPG gave the best result, so I changed back to that.
+To get a good lighthouse result, I tried to use two different formats. At first, I tried JPG, then I changed to WebP. After I tested both of them, I saw that JPG gave the best result, so I changed back to that. Here is the result from the JPG that I used.
 
 #### About Me
 
