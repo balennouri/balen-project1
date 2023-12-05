@@ -39,6 +39,7 @@ A live version of the website and the project can be accessed here: [Balen Taha 
       - [Contact Page](#contact-page-1)
   - [Known Bugs](#known-bugs)
     - [Solved Bugs](#solved-bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
 - [Credit](#credit)
   - [Content And Code](#content-and-code)
@@ -229,6 +230,10 @@ All known bugs have been fixed, below is a list of bugs encountered and how they
 3. On the W3C validator I got one error on the gallery page where I used frame border for the YouTube video inside the HTML file.
 
    - The solution was to remove it from the HTML file and put it in the CSS file.
+
+### Unfixed Bugs
+
+No unfixed bugs.
 
 # Deployment
 
