@@ -265,5 +265,3 @@ The live link can be found here: [Balen Taha Nouri](https://balennouri.github.io
 I would like to thank my mentor David Bowers, the slack community and the Code Institute team.
 
 [Back to top](#balen-taha-nouri)
-
-[def]: https://tinypng.com/
