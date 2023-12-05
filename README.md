@@ -165,7 +165,7 @@ The Balen Taha Nouri website has three pages. All of the pages can be navigated 
 
 ## Future Features
 
-For this project I needed to have three pages with a working navigation bar, and some more features. For the future I plan to add this stuff down below.
+For this project I needed to have three pages with a working navigation bar, and some more features. So I focused on doing that part first. For the future I plan to add, those features that you can see below.
 
 - More information about myself and training on the About Me page.
 - More videos and pictures to the gallery.
@@ -213,7 +213,7 @@ To get a good lighthouse result, I tried to use two different formats. At first,
 
 #### Contact Page
 
-[lighttest](docs/readme-image/lighthouse.png)
+![lighttest](docs/readme-image/lighthouse.png)
 
 ### Known Bugs
 
